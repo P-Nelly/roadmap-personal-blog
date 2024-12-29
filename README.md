@@ -38,15 +38,13 @@
 ---
 
 ##  Features
-
-<code>❯ Key features of the blog platform include:
 - Public article viewing with a clean, responsive interface
 - Markdown support for rich content formatting
 - Secure admin authentication system
 - Article management (create, edit, delete)
 - JSON-based storage for simplicity
 - Modern UI with responsive design
-- Comprehensive test coverage</code>
+- Comprehensive test coverage
 
 ---
 
