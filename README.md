@@ -228,7 +228,7 @@ Run the test suite using the following command:
 
 - **💬 [Join the Discussions](https://github.com/P-Nelly/roadmap-personal-blog/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/P-Nelly/roadmap-personal-blog/issues)**: Submit bugs found or log feature requests for the `roadmap-personal-blog` project.
-- **💡 [Submit Pull Requests](https://github.com/P-Nelly/roadmap-personal-blog/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💡 [Submit Pull Requests](https://github.com/P-Nelly/roadmap-personal-blog/blob/master/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
