@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {% if article %}Edit Article{% else %}Add New Article{% endif %} - Personal Blog
+{% endblock %}
+
+{% block content %}
+<div class="article-editor">
+    <h1>{% if article %}Edit Article{% else %}Add New Article{% endif %}</h1>
+    
+    <form method="POST" class="article-form">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required
+                   value="{{ article.title if article else '' }}">
+        </div>
+        
+        <div class="form-group">
+            <label for="content">Content (Markdown)</label>
+            <textarea id="content" name="content" rows="20" required>{{ article.content if article else '' }}</textarea>
+            <small class="form-help">You can use Markdown formatting in the content.</small>
+        </div>
+        
+        <div class="form-actions">
+            <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="btn btn-primary">
+                {% if article %}Save Changes{% else %}Create Article{% endif %}
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %} 
